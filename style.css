@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap');
+
+@font-face {
+    font-family: 'Permanent Marker', cursive;
+
+}
+
+body {
+  background-color: brown;
+}
+
+img {
+  margin-left: 25%;
+  width: 50%;
+  height: 50%;
+}
+
+.text {
+  text-align: center;
+  font-family: 'Permanent Marker', cursive;
+  color: rgb(255, 208, 0);
+  font-size: 50pt;
+}

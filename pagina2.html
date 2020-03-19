@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>COROWNA VAIRUS</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <script type="text/javascript">
+      
+      let image_tracker = "f";
+      function change() {
+        var image = document.getElementById("gif1");
+
+        if (image_tracker == "f") {
+          image.src = "cardi.gif";
+          let image_tracker = "t";
+        } else  {
+          imarge.src = "giphy.gif";
+          let image_tracker = "f";
+        }
+      }
+    </script>
+
+    <div class="gif">
+      <img src="giphy.gif" alt="" id="gif1" onmouseover="change()" />
+    </div>
+    <audio autoplay>
+      <source src="cardi-b.mp3" type="audio/mpeg" />
+      Your browser does not support the audio element.
+    </audio>
+
+    <div class="text">
+      <h1>SHIT IS REAL</h1>
+    </div>
+  </body>
+</html>
